@@ -18,7 +18,7 @@ spec:
         app: mkj-cisc-app-ui
     spec:
       containers:
-      - image: manajena/mkjapp:appv1
+      - image: manajena/mkjapp:v1
         name: mkjapp
         ports:
         - containerPort: 80
